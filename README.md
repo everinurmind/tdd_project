@@ -1,5 +1,3 @@
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -11,7 +9,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -24,7 +22,7 @@
 
 # 📖 [TDD PROJECT] <a name="about-project"></a>
 
-The "TDD PROJECT" project is a Ruby exercise designed to help users warm up.
+The "TDD PROJECT" Test Driven Development exercise in Ruby using Rspec
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,7 +39,7 @@ The "TDD PROJECT" project is a Ruby exercise designed to help users warm up.
 
 ### Key Features <a name="key-features"></a>
 
-- **Add classes**
+- **OOP**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +53,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- Install [Git](https://git-scm.com/)
+- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- Install [Rspec]
 
 ### Setup
 
@@ -66,12 +66,14 @@ Clone this repository to your desired folder:
   git clone git@github.com:everinurmind/tdd_project.git
 ```
 
-### Usage
+## Run Tests
+
+### Tests
 
 To run the project, execute the following commands:
 
 ```sh
-  ruby solver.rb
+  rspec spec spec/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,8 +90,8 @@ To run the project, execute the following commands:
 
 👤 **Ghulam Reza Rajabi**
 
-- GitHub: [@everinurmind](https://github.com/everinurmind)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/everinurmind)
+- GitHub: [@ghreza-crypto](https://github.com/ghreza-crypto)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghulam-reza-rajabi-7a9aa3142/?originalSubdomain=af)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +99,7 @@ To run the project, execute the following commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Adding basic UI]**
+- **[More Functions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
