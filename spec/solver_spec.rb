@@ -33,29 +33,28 @@ describe Solver do
   end
 end
 describe 'fizzbuzz' do
-    context 'when N is divisible by 3' do
-      it 'returns "fizz" for fizzbuzz(9)' do
-        result = subject.fizzbuzz(9)
-        expect(result).to eq 'fizz'
-      end
+  context 'when N is divisible by 3' do
+    it 'returns "fizz" for fizzbuzz(9)' do
+      result = subject.fizzbuzz(9)
+      expect(result).to eq 'fizz'
     end
-    context 'when N is divisible by 5' do
-      it 'returns "buzz" for fizzbuzz(10)' do
-        result = subject.fizzbuzz(10)
-        expect(result).to eq 'buzz'
-      end
+  end
+  context 'when N is divisible by 5' do
+    it 'returns "buzz" for fizzbuzz(10)' do
+      result = subject.fizzbuzz(10)
+      expect(result).to eq 'buzz'
     end
-    context 'when N is divisible by 3 and 5' do
-      it 'returns "fizzbuzz" for fizzbuzz(15)' do
-        result = subject.fizzbuzz(15)
-        expect(result).to eq 'fizzbuzz'
-      end
+  end
+  context 'when N is divisible by 3 and 5' do
+    it 'returns "fizzbuzz" for fizzbuzz(15)' do
+      result = subject.fizzbuzz(15)
+      expect(result).to eq 'fizzbuzz'
     end
-    context 'when N is not divisible by 3 or 5' do
-      it 'returns "7" for fizzbuzz(7)' do
-        result = subject.fizzbuzz(7)
-        expect(result).to eq '7'
-      end
+  end
+  context 'when N is not divisible by 3 or 5' do
+    it 'returns "7" for fizzbuzz(7)' do
+      result = subject.fizzbuzz(7)
+      expect(result).to eq '7'
     end
   end
 end
